@@ -1,0 +1,73 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .row {
+    max-width: 600px; // change the width here
+    width: 100%;
+  }
+
+  .login-form {
+    background-color: #232323; // dark color value
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 20px; // Change background color when focused to show the text
+    color: white;
+
+    h2,
+    p {
+      text-align: center;
+    }
+    p {
+      margin-bottom: 20px;
+      color: hsla(0, 0%, 100%, 0.5);
+    }
+
+    form {
+      label {
+        margin-bottom: 5px;
+      }
+
+      input[type='email'],
+      input[type='password'] {
+        border-radius: 3px;
+        border-color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        margin-bottom: 20px;
+        color: white;
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+          border-color: white;
+          background-color: rgba(0, 0, 0, 0.3);
+          caret-color: white;
+          color: white;
+        }
+      }
+
+      button[type='submit'] {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-color: white;
+        border-radius: 3px;
+        border-width: 2px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 50%;
+        margin: auto;
+        display: block;
+
+        // &:hover,
+        // &:focus {
+        //   background-color: #0069d9;
+        //   border-color: #0062cc;
+        // }
+      }
+    }
+  }
+}

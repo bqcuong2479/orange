@@ -1,0 +1,31 @@
+{
+  "name": "@orange/service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@orange/data-access": "^1.0.0",
+    "fastify": "^4.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "js-to-ts-converter": "^0.18.2",
+    "prettier": "^2.8.8",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "typescript-eslint-parser": "^22.0.0",
+    "rxjs": "^7.8.0",
+    "typescript": "^5.0.4"
+  }
+}

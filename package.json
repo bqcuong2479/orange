@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "lerna run clean",
+    "build:client": "lerna run --scope={@orange/api-client,@orange/client} build",
+    "build:server": "lerna run --scope={@orange/data-access,@orange/service,@orange/server} build",
+    "build:spec": "lerna run --scope=@orange/spec build",
+    "start:client": "lerna run --scope=@orange/client start",
+    "start:server": "lerna run --scope=@orange/server start"
+  },
+  "dependencies": {
+    "lerna": "^6.4.1"
+  }
+}

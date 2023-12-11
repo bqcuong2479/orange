@@ -1,0 +1,10 @@
+{
+  "LOGIN_PAGE": {
+    "MESSAGE": {
+      "WELCOME": "Welcome {{name}}, you are logged in!"
+    },
+    "BUTTON": {
+      "LOGIN": "LOGIN"
+    }
+  }
+}
